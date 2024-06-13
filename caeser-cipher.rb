@@ -33,5 +33,5 @@ def encipher_text(user_key, plain_text)
     end
     return cipher_text
 end
-cipher_text = encipher_text(user_key, plain_text)
-puts "The encrypted text is #{cipher_text}"
+encrypted_text = encipher_text(user_key, plain_text)
+puts "The encrypted text is #{encrypted_text}"
